@@ -31,6 +31,7 @@ var/
 *.spec
 
 # Installer logs
+pip-selfcheck.json
 pip-log.txt
 pip-delete-this-directory.txt
 
@@ -87,3 +88,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+Procflie

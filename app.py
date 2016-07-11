@@ -32,7 +32,9 @@ def day_order():
 	if day_order>5:
 		day_order%=5
 
-	#return render_template('form_action.html', day_order=day_order)
+	if day_order==0:
+		day_order=5
+
 	return jsonify({str(end): day_order})
 
 if __name__ == '__main__':
