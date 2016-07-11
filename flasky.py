@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def form():
-    return render_template("my-form.html")
+    return render_template("form.html")
 
 @app.route('/day-order', methods=['GET'])
 def day_order():
